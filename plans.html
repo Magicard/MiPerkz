@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MiPerkz</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/card-3-column-animation-shadows-images.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top" style="background-color: #fcfcfc; color: #a6ffb2;">
+        <div class="container-fluid"><a class="navbar-brand font-weight-bold" href="#" style="font-size:30px; color: #a6ffb2; ">MiPerkz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style=" color: #a6ffb2;">
+                <ul class="nav navbar-nav d-lg-flex justify-content-lg-center align-items-lg-center"  style=" color: #a6ffb2 !important;">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#"  style=" color: #a6ffb2;">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style=" color: #a6ffb2 !important;">Why MiPerkz</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style=" color: #a6ffb2 !important;">Prices &amp; Plans</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style=" color: #a6ffb2 !important;">MiReward Portal</a></li>
+                </ul><button class="btn btn-outline-light border rounded ml-auto mr-1" style=" color: #a6ffb2 !important;" type="button">Login</button>
+                <button class="text-light btn btn-light border rounded" type="button" style="background-color: #a6ffb2 !important;">Sign Up</button></div>
+        </div>
+    </nav>
+
+
+    <div class="footer-basic" style="color:  #a6ffb2; background-color: #fcfcfc">
+        <footer>
+            <div class="social" style="color: #a6ffb2 !important;" >
+                <a class="text border rounded-circle" href="#">
+                    <i class="icon ion-social-instagram" style="color: #a6ffb2 !important;"></i>
+                </a>
+                <a class="text-light" href="#">
+                    <i class="fab fa-twitter" style="color: #a6ffb2 !important;"></i>
+                </a>
+                <a class="text-light" href="#">
+                    <i class="icon ion-social-facebook" style="color: #a6ffb2 !important;"></i>
+                </a>
+            </div>
+            <ul class="list-inline text-light">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+                <p class="text-light copyright">MiPerkz © 2020</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <script>
+        $(window).on("load",function() {
+            $(window).scroll(function() {
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                $(".fade").each(function() {
+                /* Check the location of each desired element */
+                var objectBottom = $(this).offset().top + $(this).outerHeight();
+                
+                /* If the element is completely within bounds of the window, fade it in */
+                if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                    if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+                }
+                
+                });
+            }).scroll(); //invoke scroll-handler on page-load
+        });
+    </script>
+    <script>
+            $(window).on("load",function() {
+                $(window).scroll(function() {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".slide").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        $(this).addClass(".animated");
+                        $(this).addClass(".slideInLeft");
+                    }
+                    
+                    });
+                }).scroll(); //invoke scroll-handler on page-load
+            });
+        </script>
+</body>
+
+</html>
