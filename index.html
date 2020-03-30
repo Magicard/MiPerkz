@@ -24,7 +24,7 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg sticky-top" style="background-color: #d270ff;">
-        <div class="container"><a class="navbar-brand font-weight-bold" href="#" style="font-size: 26px;">MiPerkz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand font-weight-bold" href="#" style="font-size:30px;">MiPerkz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav d-lg-flex justify-content-lg-center align-items-lg-center">
@@ -35,62 +35,136 @@
                 </ul><button class="btn btn-outline-light border rounded ml-auto mr-1" type="button">Login</button><button class="btn btn-light border rounded" type="button" style="color: #d270ff;">Sign Up</button></div>
         </div>
     </nav>
-    <div class="highlight-clean align-content-centre" style="background: rgb(210,112,255);background: linear-gradient(180deg, rgba(210,112,255,1) 0%, rgba(210,112,255,1) 48%, rgba(160,0,255,1) 100%);height: 290px;">
-        <div class="container" style="padding-bottom: 0%;padding-right: 20px;padding-left: 20px;">
-            <div class="intro" style="/*margin-right: 0px;*/">
-                <h2 class="text-center text-light animated slideInDown faster" style="font-size: 70px;">Welcome!&nbsp;<i class="fa fa-smile-o" style="color: #ffffff;"></i></h2>
-                <p class="text-center text-light animated slideInLeft faster" style="margin-top: -34px;">Your employee reward&nbsp;platform. Provide your employees with discounts from a wide range of&nbsp;retailers making their&nbsp;paycheck go further. </p>
-            </div>
-        </div>
-    </div>
-    <section style="margin-top: 29px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-auto col-sm-12 col-md-12 col-lg-4 col-xl-4" style="padding-top: 15px;padding-bottom: 15px;padding-right: 15px;padding-left: 15px;">
-                    <div class="bg-light border rounded shadow card" data-bs-hover-animate="pulse"><img class="card-img-top" src="assets/img/nr1.png" style="margin-left: 0;">
-                        <div class="card-body">
-                            <h3 class="card-title" >Lorem Ipsum</h3>
-                            <h5 class="card-sub-title">Webbdesign</h5>
-                            <p class="card-text"></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Dignissim cras tincidunt.</p><button class="btn btn-outline-success" type="button" style="font-weight: normal;font-family: Antic, sans-serif;">Lorem in LinkedIn&nbsp;<i class="icon-social-linkedin"></i></button></div>
-                    </div>
-                </div>
-                <div class="col-auto col-sm-12 col-md-12 col-lg-4 col-xl-4" style="padding-top: 15px;padding-bottom: 15px;padding-right: 15px;padding-left: 15px;margin-right: 0px;margin-bottom: 0px;">
-                    <div class="bg-light border rounded shadow card" data-bs-hover-animate="pulse"><img class="card-img-top" src="assets/img/nr2.png" style="background-color: rgba(255,255,255,0);">
-                        <div class="card-body" style="text-align: center;/*background: rgb(210,112,255);*//*background: linear-gradient(160deg, rgba(210,112,255,1) 0%, rgba(210,112,255,1) 48%, rgba(160,0,255,1) 100%);*/">
-                            <h3 class="card-title"><strong>Register your details</strong></h3>
-                            <p class="card-text"></p><p id="lorem">Location based real time discounts alerts from over 3000 retailers. </p><button class="btn btn-outline-success" type="button" style="font-weight: normal;font-family: Antic, sans-serif;">Lorem på LinkedIn&nbsp;<i class="icon-social-linkedin"></i></button></div>
-                    </div>
-                </div>
-                <div class="col-auto col-sm-12 col-md-12 col-lg-4 col-xl-4" style="padding-top: 15px;padding-bottom: 15px;padding-right: 15px;padding-left: 15px;">
-                    <div class="bg-light border rounded shadow card" data-bs-hover-animate="pulse"><img class="card-img-top" src="assets/img/nr3.png">
-                        <div class="card-body">
-                            <h3 class="card-title" style="font-family: Antic, sans-serif;color: rgb(81,87,94);">Lorem Ipsum</h3>
-                            <h5 class="card-sub-title" style="font-family: Antic, sans-serif;color: #38ae53;">Webdesign</h5>
-                            <p class="card-text" style="font-family: Antic, sans-serif;color: rgb(81,87,94);"></p><p id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Dignissim cras tincidunt.</p><button class="btn btn-outline-success" type="button" style="font-weight: normal;font-family: Antic, sans-serif;">Lorem på LinkedIn&nbsp;<i class="icon-social-linkedin"></i></button></div>
+
+    <div id="welcomeBit" class="highlight-clean" style="background: rgb(210,112,255);background: linear-gradient(180deg, rgba(210,112,255,1) 0%, rgba(210,112,255,1) 48%, rgba(160,0,255,1) 100%);height: 100%;">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center ">
+                <div class="container" style="padding-bottom: 0%;padding-right: 20px;padding-left: 20px;">
+                    <div class="intrso" >
+                        <h2 class=" text-light animated slideInLeft faster" style="font-size: 100px;">Welcome!&nbsp;</h2>
+                        <h5 class="text-light animated slideInLeft slow delay-4s" style="margin-top: -34px;">Your employee reward&nbsp;platform. Provide your employees with discounts from a wide range of&nbsp;retailers making their&nbsp;paycheck go further. </p>
+                        <button type="button" class="btn btn-light border rounded btn-lg animated slideInLeft slower" style="color: #d270ff;">Register Here</button>
                     </div>
                 </div>
             </div>
+            <div class="col-auto col-sm-6 col-md-6 d-none d-sm-block animated slideInRight slow" >
+                <img src="assets/img/man.png" >
+            </div>
+            
         </div>
-    </section>
-    <div class="article-list" style="background-color: rgb(255,255,255);">
-        <div class="container">
-            <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/number1.png" style="width: 225px;"></a>
-                    <h3 class="name" style="color: #d270ff;"><strong>Connect your employees to the app to access MiPerkz</strong></h3>
-                    <p class="description" style="height: 160px;">MiPerkz is a web and app&nbsp;based discount reward platform offering exclusive deals for your employees whilst also providing access to financial&nbsp;and legal services.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right" style="color: #d270ff;"></i></a></div>
-                <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/number2.png" style="width: 202px;"></a>
-                    <h3 class="name" style="color: #d270ff;"><strong>Register your details</strong></h3>
-                    <p class="description">Location based&nbsp;real time discounts alerts from over 3000 retailers.&nbsp;</p>
-                    <p class="description">Access financial planning platforms to open ISA's and manage pension fund contributions.&nbsp;</p>
-                    <p class="description">Review your legal vulnerability via My&nbsp;Legal Checkup for individuals and business owners, services provided via our network&nbsp;of over 300 UK solicitors&nbsp;</p><a class="action" href="#"><i class="fa fa-arrow-circle-right" style="color: #d270ff;"></i></a></div>
-            <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/number3.png" style="width: 268px;"></a>
-                <h3 class="name" style="color: #d270ff;"><strong>Track Your Savings</strong></h3>
-                <p class="description" style="height: 170px;">See how much you have saved via our exclusive cashback rewards and view your investments via our partner&nbsp;platforms.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right" style="color: #d270ff;"></i></a></div>
+
     </div>
+
+    <div id="firstBit"  class="highlight-clean " style="height: 100%; background: rgb(240,240,240);background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 11%, rgba(255,255,255,1) 100%);">
+        <div class="container-fluid" style="height: 50px;  background:rgba(255,255,255,1)"></div>    
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-auto col-md-6 col-lg-6 col-xl-6 offset-lg-0  d-none d-lg-block" >
+                    <img src="assets/img/PLACEHOLDER520.png" class="fade">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 d-flex align-items-center ">
+                <div class="container fade" style="padding-bottom: 0%; padding-right: 20px; padding-left: 20px;">
+                    <div class="intrso animated fadeIn" style="width: 100%;">
+                        <h2 class="text-left " style="color: #24003b;">Connect your employees to the app to access MiPerkz</h2>
+                        <h5 class="text-left " style="color: #180024;">MiPerkz is a web and app based discount reward platform offering exclusive deals for your employees whilst also providing access to financial and legal services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="height: 50px;  background:rgba(255,255,255,1)"></div> 
     </div>
+
+    <div id="secondBit"  class="highlight-clean " style="height: 100%; background: #59ca9b;">
+        <div class="container-fluid" style="height: 50px;  background: #59ca9b;"></div> 
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center ">
+                <div class="container fade" style="padding-bottom: 0%; padding-right: 20px; padding-left: 20px;">
+                    <div class="intrso animated fadeIn" style="width: 100%;">
+                        <h2 class="text-left " style="color: #fcfcfc;">Register your details</h1>
+                        <h5 class="text-left " style="color: #fcfcfc;">Location based real time discounts alerts from over 3000 retailers.</h5>
+                        <h5 class="text-left " style="color: #fcfcfc;">Access financial planning platforms to open ISA's and manage pension fund contributions.</h5>
+                        <h5 class="text-left " style="color: #fcfcfc;">Review your legal vulnerability via My Legal Checkup for individuals and business owners, services provided via our network of over 300 UK solicitors.  </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto col-md-6 col-lg-6 col-xl-5 d-none d-lg-block" >
+                    <img src="assets/img/PLACEHOLDER520.png" class="fade">
+            </div>
+        </div>
+        <div class="container-fluid" style="height: 50px;  background: #59ca9b;"></div> 
     </div>
+
+    <div id="thirdBit"  class="highlight-clean " style="height: 100%; background: rgb(250,255,196);
+    background: linear-gradient(87deg, rgba(250,255,196,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);">
+        <div class="container-fluid" style="height: 50px;  background: rgb(250,255,196);
+        background: linear-gradient(87deg, rgba(250,255,196,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);"></div>    
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-auto col-md-6 col-lg-6 col-xl-5 offset-lg-0  d-none d-lg-block" >
+                    <img src="assets/img/PLACEHOLDER520.png" class="fade">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 d-flex align-items-center ">
+                <div class="container fade" style="padding-bottom: 0%; padding-right: 20px; padding-left: 20px;">
+                    <div class="intrso animated fadeIn" style="width: 100%;">
+                        <h2 class="text-left " style="color: #24003b;">Track Your Savings </h2>
+                        <h5 class="text-left " style="color: #180024;">See how much you have saved via our exclusive cashback rewards and view your investments via our partner platforms.</p>
+                        <h5 class="text-left " style="color: #180024;">Enjoy savings on purchases from your favourite retailers and manage your finances effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="height: 50px; background: rgb(250,255,196);
+        background: linear-gradient(87deg, rgba(250,255,196,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);"></div> 
+    </div>
+
+    <div id="forthBit"  class="highlight-clean" style="height: 100%; background: #ffdac1;">
+            <div class="col-10 offset-1">
+                    <div class="row fade">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2 class="card-title text-center">Why MiPerkz?</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center fade">
+                        <div class="col-sm-12 col-md-12 col-lg-4" style="color: #d270ff;">
+                            <div class="card align-items-center" style="height:275px !important; overflow: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Become a high performing organisation</h4>
+                                    <p class="card-text">You don't need to be a big business to afford to make your employees feel valued and for them to value your company.  A cool office alone doesn't create a successful business, employees are looking for more from their employer, so cultivate a winning company culture and reward your employees via the MiPerkz platform.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="card align-items-center" style="height:275px !important; overflow: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Access to a platform that can help your business attract and retain the best talent.</h4>
+                                    <p class="card-text">Recruit the best employees by offering a compelling reward package. MiPerkz enable you to stand out from the crowd, providing discounts rewards and the latest tech to manage their finances. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="card align-items-center" style="height:275px !important; overflow: auto;">
+                                <div class="card-body ">
+                                    <h4 class="card-title">Improve the health of your staff</h4>
+                                    <p class="card-text">Reduce absenteeism by supporting employee wellbeing.  Access an employee assistance program to help address mental health.  A platform which offers 24/7 GP appointments, same-day prescriptions, discounted gym memberships, online fitness classes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+
+    <div id="fifthBit"  class="highlight-clean" style="height: 100%; background: #fcfcfc;">
+            <div class="col-10 offset-1">
+                    <div class="row slide">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-block rounded btn-lg slide" style="color: #ffffff; background-color:  #5ac56c;"><h1>Plans & Pricing</h1></button>
+                        </div>
+                    </div>
+            </div>
+    </div>
+
     <div class="footer-basic" style="/*background-color: rgba(160,0,255,1) 100%;*/background: rgba(160,0,255,1) 80%;background: linear-gradient(180deg, rgba(160,0,255,1) 0%, rgba(210,112,255,1) 48%,rgba(210,112,255,1) 100% );">
         <footer>
             <div class="social"><a class="text-light border rounded-circle" href="#"><i class="icon ion-social-instagram"></i></a><a class="text-light" href="#"><i class="fab fa-twitter"></i></a><a class="text-light" href="#"><i class="icon ion-social-facebook"></i></a></div>
@@ -110,6 +184,41 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <script>
+        $(window).on("load",function() {
+            $(window).scroll(function() {
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                $(".fade").each(function() {
+                /* Check the location of each desired element */
+                var objectBottom = $(this).offset().top + $(this).outerHeight();
+                
+                /* If the element is completely within bounds of the window, fade it in */
+                if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                    if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+                }
+                
+                });
+            }).scroll(); //invoke scroll-handler on page-load
+        });
+    </script>
+    <script>
+            $(window).on("load",function() {
+                $(window).scroll(function() {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".slide").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        $(this).addClass(".animated");
+                        $(this).addClass(".slideInLeft");
+                    }
+                    
+                    });
+                }).scroll(); //invoke scroll-handler on page-load
+            });
+        </script>
 </body>
 
 </html>
